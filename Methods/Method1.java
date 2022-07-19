@@ -1,6 +1,6 @@
 package Methods;
 
-public class Methods {
+public class Method1 {
 	
 	public void print() {
 		System.out.println("Method without return type and without parameter");
@@ -24,7 +24,7 @@ public class Methods {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Methods obj= new Methods();
+		Method1 obj= new Method1();
 		obj.print();
 		obj.display("gaurav");
 		
@@ -37,3 +37,4 @@ public class Methods {
 	}
 
 }
+
